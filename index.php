@@ -3,8 +3,9 @@
 <head>
 	<title>Ping Ji</title>
 	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed|Roboto+Slab&effect=anaglyph" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed|Roboto+Slab&effect=anaglyph" rel="stylesheet"></head>
+</head>
 <body>
 	<main>
 		<section class="me">
@@ -20,7 +21,7 @@
 	<footer>
 		<q>
 			<?php 
-				include ('/php/quote.php');
+				include ('php/quote.php');
 			?>
 		</q>
 	</footer>
