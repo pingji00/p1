@@ -4,11 +4,11 @@
 	<title>Ping Ji</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+	<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed|Roboto+Slab&effect=anaglyph" rel="stylesheet"></head>
 <body>
 	<main>
 		<section class="me">
-			<h1>Ping Ji</h1>
+			<h1 class="font-effect-anaglyph">Ping Ji</h1>
 			<p>My name is Ping Ji, a designer work in the Boston area. I'm working with a lot of HTML/CSS/JS stuff, now I'd like to learn more about the back end. This is my 4th course at HES, hope everything's going well with the team.</p>
 			<p>I like build things, not only on paper/screen, but also in real life, so I'm a weekend woodworker as well.</p>
 		</section>
@@ -19,8 +19,8 @@
 	</main>
 	<footer>
 		<q>
-			<?php
-				include ('php/quote.php')
+			<?php 
+				include ('/php/quote.php');
 			?>
 		</q>
 	</footer>

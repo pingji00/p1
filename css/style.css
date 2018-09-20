@@ -5,11 +5,15 @@
 
 main {
 	display: flex;
+	justify-content: space-around;
 	max-width: 960px;
 	margin: 0 auto;
 }
 .me {
 	flex: 1 1 400px;
+}
+.me h1 {
+	font: normal normal bold 3rem/1.2 'Roboto Slab', serif;
 }
 .photo {
 	flex: 1 2 300px;
@@ -21,10 +25,10 @@ main {
 	width: 100%;
 }
 .photo figcaption {
-	font: normal normal normal .5em/1.2 sans-serif;
+	font: normal normal normal .5em/1.2 'Oswald', sans-serif;;
 }
 p {
-	font: normal normal normal 1rem/1 sans-serif;
+	font: normal normal normal 1rem/1.4 'Oswald', sans-serif;;
 	color: var(--accent-color);
 }
 
