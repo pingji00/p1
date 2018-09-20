@@ -1,0 +1,57 @@
+:root {
+    --accent-color: coral;
+    --section-bg-color: #f2f2f2; 
+}
+
+main {
+	display: flex;
+	max-width: 960px;
+	margin: 0 auto;
+}
+.me {
+	flex: 1 1 400px;
+}
+.photo {
+	flex: 1 2 300px;
+	padding: .5em;
+	background-color: var(--section-bg-color);
+}
+
+.photo img {
+	width: 100%;
+}
+.photo figcaption {
+	font: normal normal normal .5em/1.2 sans-serif;
+}
+p {
+	font: normal normal normal 1rem/1 sans-serif;
+	color: var(--accent-color);
+}
+
+q { 
+	display: block;
+	padding: 1em;
+	margin: 2em;
+	color: white;
+	background-color: var(--accent-color);
+	font: normal normal normal 1rem/1.2 sans-serif;
+	border-left: .3em solid black;
+}
+
+q:before { 
+	content:"\201C";
+	font-size: 4em;
+}
+
+q:after { 
+	content:"";
+}
+@media screen and (max-width: 480px) {
+	main {
+		flex-flow: column;
+	}
+	.me,
+	.photo {
+		flex: 1 1 100%;
+	}
+}
